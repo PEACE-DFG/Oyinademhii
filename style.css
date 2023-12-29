@@ -1,0 +1,59 @@
+/* table{
+  width: 100%;
+  text-align: center;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th{
+  border: 1px solid black;
+}
+td{
+  border: 1px solid black;
+
+}
+ */
+
+
+ /* style for second css */
+ /* table{
+  width: 100%;
+  text-align: center;
+  border: 1px solid black;
+  border-collapse: collapse;
+ }
+ th{
+  border: 1px solid black;
+}
+td{
+  border: 1px solid black;
+
+} */
+
+/* style for mthird table */
+
+ /* table{
+  width: 100%;
+  text-align: center;
+  border: 1px solid black;
+  border-collapse: collapse;
+ }
+ th{
+  border: 1px solid black;
+}
+td{
+  border: 1px solid black;
+
+} */
+
+/* ul */
+
+/* li{
+  list-style-type: circle;
+} */
+
+.block{
+  background-color: blue;
+}
+.INLINE{
+  background-color: red;
+}
