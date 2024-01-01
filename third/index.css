@@ -1,0 +1,119 @@
+#one{
+  /* background-image: url('../images/html.jpg'); */
+  background: linear-gradient(rgb(0,0,0,0.4),rgb(0,0,0,0.4)),url('../images/html.jpg');
+  height: 500px;
+  /* width: 500px; */
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* border-radius: 50%; */
+  /* opacity:0.9; */
+  /* background-image: linear-gradient(red,blue,green); */
+  /* background-image: repeating-radial-gradient(red 30%,blue 10% ,green 60%); */
+  /* background-image: repeating-conic-gradient(red 50deg ,blue 80deg ,green 230deg ); */
+  /* width: 300px;
+
+  height: 300px; */
+  /* text-align: center; */
+  /* margin:auto;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px grey,50px 50px 20px yellow; */
+}
+#dropdown{
+  position: relative;
+  display: inline-block;
+}
+
+#dropdown-content{
+  position: absolute;
+  display: none;
+
+}
+
+#dropdown:hover #dropdown-content{
+  display: block;
+}
+
+#point{
+  cursor:pointer;
+}
+/* descendant combinator is represented with space [] */
+/* .combine p{
+  background-color: red;
+} */
+
+/* child combinator is represented with greater than [>] */
+/* .combine>p{
+  background-color: red;
+} */
+
+/*  Adjacent combinator represented with [+] */
+/* .combined+span{
+background-color:yellow;
+} */
+/* general combinator represented by [~] */
+/* .combined~span{
+  background-color:yellow;
+  } */
+  #two{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    padding: 20px;
+    /* box-sizing: content-box; */
+    /* box-sizing: border-box; */
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 255, 0.18);
+  }
+  li{
+    border: 1px solid transparent;
+    background-color: blue;
+    padding: 10px;
+    color: white;
+  }
+
+  /* 
+  @media(max-width:320px){
+
+  }
+  */
+
+  marquee{
+    font-size: 100px;
+    animation-name: loop;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    /* animation-timing-function:; */
+    animation-delay:2s;
+  }
+/* 
+  @keyframes loop{
+    0%{color: red;}
+    25%{color: blue;}
+    50%{color: yellow;}
+    75%{color: aqua;}
+    100%{color:aquamarine;}
+  }
+
+  #foot{
+    width:200px;
+    height: 200px;
+    background-color: red;
+    transition: width 2s,height 2s,transform 2s;
+
+  }
+
+  #foot:hover{
+    width: 400px;
+    height: 300px;
+    transform: rotate(360deg);
+  } */

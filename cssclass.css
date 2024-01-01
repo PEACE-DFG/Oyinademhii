@@ -1,0 +1,125 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;800;900&family=Poppins:wght@300&family=Roboto&family=Rubik+Scribble&display=swap');
+
+
+/* *{
+  margin: 0;
+  padding: 0;
+} */
+/* #back{
+  background-image: url('https://cdn.pixabay.com/photo/2016/12/03/15/44/fireworks-1880045_1280.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+} */
+
+#back{
+  border: 2px groove red;
+  border-radius: 10px;
+  padding: 30px;
+  outline: 5px inset yellow;
+  color: blue;
+  text-align: center;
+  /* letter-spacing: 20px; */
+  word-spacing: 20px;
+  text-transform:uppercase;
+
+
+  /* text-shadow: horizontal   vertical    color; */
+  /* text-shadow: 10px 10px red; */
+
+
+
+  /* text-shadow: horizontal vertical blurness(opacity)  color */
+  /* text-shadow: 10px 10px 20px red; */
+
+  line-height: 2.0;
+  font-family: Rubik Doodle Shadow;
+  font-weight: 900;
+  /* font-size: 30px; */
+
+  
+
+
+  /* 
+  padding: single value (all 4 sides)
+  padding for double values
+  padding: top and bottom        left and right;
+
+  padding for three values
+  padding:top  leftandright   bootom
+  padding for 4 values
+  padding: top,right,bottom left
+  */
+}
+/* 
+Pseudocode class
+1. hover
+2. active
+3. visited
+4. link
+*/
+
+/* 
+selector:Pseudoclass{
+
+}
+ */
+ button:hover{
+  background-color: rebeccapurple;
+ }
+ button:active{
+  background-color: red;
+ }
+ a{
+  text-decoration: none;
+ }
+ a:visited{
+  color: purple;
+ }
+ a:hover{
+  border-bottom: 2px solid purple;
+ }
+ a:active{
+  color:red;
+
+ }
+ /* li{
+  display: inline;
+ } */
+ /* #image{
+  position: relative;
+ } */
+
+ #text{
+  font-size: 60px ;
+  position:absolute;
+  top: 400px;
+  left:100px ;
+  color: white;
+ }
+ #chev{
+  border: 1px solid black;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  position: fixed;
+  top: 200px;
+  left: 200px;
+ }
+ #over{
+  height: 500px;
+  width: 1000px;
+  border: 5px dotted red;
+  overflow: auto;
+ }
+ li{
+  float:left;
+  width: 20%;
+ }
+ img{
+  float: right;
+  opacity: 0.1;
+
+ }
