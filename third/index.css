@@ -1,3 +1,18 @@
+
+:root{
+  --bg-color:blue;
+  --txt-color:white;
+  --txt-center:center;
+}
+
+body{
+  background-color: var(--bg-color);
+  color: var(--txt-color);
+}
+h1{
+  text-align: var(--txt-center);
+}
+
 #one{
   /* background-image: url('../images/html.jpg'); */
   background: linear-gradient(rgb(0,0,0,0.4),rgb(0,0,0,0.4)),url('../images/html.jpg');
